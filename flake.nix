@@ -4,6 +4,7 @@
     std.url = "github:divnix/std";
 
     std.inputs.nixpkgs.follows = "nixpkgs";
+    std.inputs.paisano.url = "github:whs-dot-hk/core/test";
   };
 
   outputs = {
